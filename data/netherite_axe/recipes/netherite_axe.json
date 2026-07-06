@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ESE",
+    "XDX",
+    "ESE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:diamond" },
+    "S": { "item": "minecraft:blaze_rod" },
+    "D": { "item": "minecraft:diamond_axe" },
+    "X": { "item": "minecraft:netherite_ingot" }
+  },
+  "result": {
+    "item": "minecraft:netherite_axe",
+    "count": 1
+  }
+}
