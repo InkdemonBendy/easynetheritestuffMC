@@ -1,0 +1,25 @@
+{
+  "parent": "easier_netherite_stuff:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots"
+    },
+    "title": {
+      "text": "Are these Jordans?"
+    },
+    "description": {
+      "text": "craft netherite boots in a crafting table"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "crafted_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "netherite_boots:netherite_boots"
+      }
+    }
+  }
+}
